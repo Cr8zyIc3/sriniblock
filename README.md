@@ -1,0 +1,2 @@
+# sriniblock
+ blocks bad usernames
