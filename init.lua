@@ -18,7 +18,7 @@ minetest.register_on_prejoinplayer(function(name)
         if string.find(string.lower(name),string.lower(v)) then
             --logging
             print("[sriniblock] user: " .. name .. " Attempted to join with DISALLOWED WORD: " .. v)
-            return "Your UserName Contains: " .. v .. " - and is NOT ALLOWED here, please come back with a Kid Friendly and positive UserName we can call you."
+            return "Your UserName Contains: >> " .. v .. " <<- and is NOT ALLOWED here, please come back with a Kid Friendly and positive UserName we can call you by.  **NOTICE**: IF YOUR USERNAME HAS NOW BECOME BLOCKED BECAUSE OF THIS...SEND AN INQUIRY BY EMAIL:  wildwest@kith.tech."
         end
     end
 end)
